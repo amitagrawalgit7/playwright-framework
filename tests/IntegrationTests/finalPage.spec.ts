@@ -85,4 +85,10 @@ test ("Test Case 1", async({page})=>
     await expect(page).toHaveURL("https://www.saucedemo.com/inventory.html")
 })
 
+test ("New Integration Test", async({page})=>
+{
+    await finalPage.clickOnBackHomeBtn();
+    await expect(page).toHaveURL("https://www.saucedemo.com/inventory.html")
+})
+
 })
