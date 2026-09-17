@@ -11,7 +11,7 @@ import { CheckoutOverviewPage } from '../../pages/CheckoutOverviewPage'
 import { FinalPage } from '../../pages/FinalPage'
 
 
-test.describe("E2E Final Page Validation", () => {
+test.describe("E2E Final Page Validation @regression", () => {
     let loginPage: LoginPage
     let productPage: ProductPage
     let cartPage : CartPage
