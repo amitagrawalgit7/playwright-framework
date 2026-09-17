@@ -2,7 +2,7 @@ name: Playwright Smoke Tests
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Automated regression runs daily at 2:00 AM UTC
+    - cron: '*/5 * * * *'  
   workflow_dispatch:
     inputs:
       test_suite:
