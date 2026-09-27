@@ -2,7 +2,7 @@ name: Playwright Regression Tests
 
 on:
   schedule:
-    - cron: '17 * * * *' #Runs at 17 minutes past the hour  
+   # - cron: '17 * * * *' #Runs at 17 minutes past the hour  
   workflow_dispatch:
     inputs:
       test_suite:
